@@ -1,8 +1,16 @@
-# Ignorar arquivos temporários e desnecessários
+# Ignorar arquivos grandes e desnecessários
 *.log
 *.tmp
+*.iso
+*.vdi
+*.ova
+*.exe
+*.msi
+
+# Ignorar pastas e arquivos gerados automaticamente
+node_modules/
+__pycache__/
 .DS_Store
 Thumbs.db
 .vscode/
 .idea/
-__pycache__/
