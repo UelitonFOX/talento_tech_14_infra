@@ -1,16 +1,49 @@
-# Ignorar arquivos grandes e desnecessários
+# Ignorar arquivos temporários e desnecessários
 *.log
 *.tmp
+*.cache
+*.bak
+*.swp
+*.swo
+
+# Ignorar arquivos grandes e formatos binários
 *.iso
 *.vdi
 *.ova
 *.exe
 *.msi
+*.zip
+*.rar
+*.tar
+*.gz
+*.7z
 
-# Ignorar pastas e arquivos gerados automaticamente
-node_modules/
-__pycache__/
-.DS_Store
-Thumbs.db
+# Ignorar arquivos de compilação (caso use algo que gere binários)
+*.class
+*.obj
+*.o
+*.out
+*.dll
+*.so
+*.dylib
+*.pyc
+*.pyo
+
+# Ignorar arquivos de configuração de IDEs/editors
 .vscode/
 .idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignorar arquivos de sistema do Windows e Mac
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ignorar arquivos de ambiente Python (caso estude Python mais tarde)
+__pycache__/
+*.egg-info/
+.env
+
+# Ignorar PDFs por padrão, mas você pode forçar o upload de um específico com 'git add -f'
+*.pdf
