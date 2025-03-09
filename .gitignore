@@ -1,0 +1,8 @@
+# Ignorar arquivos temporários e desnecessários
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+__pycache__/
