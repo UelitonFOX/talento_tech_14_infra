@@ -11,7 +11,7 @@
 ---
 
 ## 📌 Introdução
-Nesta unidade, vamos explorar os conceitos fundamentais de **Cloud Computing (computação em nuvem)** e **Virtualização**, duas das tecnologias mais transformadoras na infraestrutura de TI moderna.  
+Nesta unidade, vamos explorar os conceitos fundamentais de **Cloud Computing (computação em nuvem)** e **Virtualização**, duas das tecnologias mais transformadoras na infraestrutura de TI moderna.
 
 A computação em nuvem tem revolucionado a maneira como armazenamos dados, hospedamos aplicativos e utilizamos recursos de TI, oferecendo flexibilidade e escalabilidade.
 
